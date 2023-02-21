@@ -4,7 +4,7 @@ subtitle: "LiDar"
 author: "Zirui Guo"
 output:
   xaringan::moon_reader:
-    css: [default, metropolis, metropolis-fonts, "custom.css"]
+    css: [default, metropolis, metropolis-fonts, custom.css]
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -107,12 +107,12 @@ In the post-completion inspection phase of a project, LiDAR technology can be us
 ---
 # Reflection
 ## Limitation and strength 
-```{r echo=FALSE, out.width='40%',fig.align='center'}
+```{r echo=FALSE, out.width='40%',fig.align='center', fig.cap=123, fig.align='center'}
 knitr::include_graphics('img/bath.png')
 ```
-.pull-center[
+
 .small[LiDAR pulse directly through the glass]
-]
+
 However, it needs to be acknowledged that there are still limitations to LiDAR as a technology. In my experience with LiDAR scanning and modelling, I have found that LiDAR has some problems: for example, it is not possible to scan glass because the light penetrates the glass. When confronted with dense vegetation, LiDAR pulses cannot penetrate the surface and thus cannot obtain information about its interior.
 Despite these problems, LiDAR has its own merits and has a wide scope for use. Specifically, LiDAR has a higher level of accuracy and can capture sufficient detail in the scanning and modelling process. Also, thanks to the active illumination sensor, LiDAR can be used regardless of time constraints.
 
