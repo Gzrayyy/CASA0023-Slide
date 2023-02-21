@@ -72,10 +72,11 @@ xaringanExtra::use_extra_styles(
 ```{r echo=FALSE, out.width='25%',fig.align='center'}
 knitr::include_graphics('img/tof.jpg')
 ```
-.pull-middle[
-.small[Distance to Object = (Speed of Light * Time)/2]
-]
-The working pricinple of .blue[LiDAR] is  use infrared light to calculate the depth of the room. To be specific, by calculating the time that light leaves the device, bounces off an object or plane, and returns to the device, so that get the distance between the device and the object.
+.small[
+Distance to Object = (Speed of Light * Time)/2
+  ]
+
+The working principle of .blue[LiDAR] is  use infrared light to calculate the depth of the room. To be specific, by calculating the time that light leaves the device, bounces off an object or plane, and returns to the device, so that get the distance between the device and the object.
 But here is one point which needs to be mentioned that although .blue[LiDAR] and .blue[TOF](Time of Flight) are essentially the same thing, i.e. all LiDAR is a type of TOF, we cannot say that all Time of Flight is LiDAR.
 The function difference between them is that LiDAR ues laser to build point cloud, whereas other TOF is usually create depth map `r Citet(myBib, "jaehingToFVsLiDAR2020")`.
 
