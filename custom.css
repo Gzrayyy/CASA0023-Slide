@@ -3,6 +3,12 @@
   line-height: 100%;
 }
 
+<style>
+p.caption {
+  font-size: 0.6em;
+}
+</style>
+
 
 @font-face {
   font-family: 'Yanone Kaffeesatz';

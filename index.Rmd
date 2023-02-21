@@ -69,7 +69,7 @@ xaringanExtra::use_extra_styles(
 # Summary
 ## Working princinple 
 
-```{r echo=FALSE, out.width='25%',fig.align='center'}
+```{r echo=FALSE, out.width='25%',fig.align='left'}
 knitr::include_graphics('img/tof.jpg')
 ```
 .small[
@@ -83,34 +83,33 @@ The function difference between them is that LiDAR ues laser to build point clou
 ---
 # Application
 ## Scan and build model
-.pull-center[
-```{r echo=FALSE, out.width='60%',fig.align='center'}
+
+```{r echo=FALSE, out.width='40%',fig.align='left'}
 knitr::include_graphics('img/gzr.png')
 ```
 
 .small[The model of allotment]
-]
 
 Last year, when I was doing my first master in the University of Edinburgh, I scanned the whole allotment using a 3D Scanner supported by a LiDAR sensor to support my following research. 
 
 ---
 # Application
 ## Practical project applications 
-```{r echo=FALSE, out.width='40%',fig.align='center'}
+
+```{r echo=FALSE, out.width='40%',fig.align='left'}
 knitr::include_graphics('img/lidar.jpg')
 ```
-.pull-middle[
-.small[A Visual from LiDAR Scanning Services`r Citet(myBib, "frontermetrologyLiDARScanningUse2022")`]
-]
+
+.small[A Visual from LiDAR Scanning Services `r Citet(myBib, "frontermetrologyLiDARScanningUse2022")`]
+
 LiDAR is also used in a wide range of applications in industry. Specifically in the construction industry, LiDAR technology can help us to quickly scan and build real-world buildings and environments with sufficient detail to reduce economic and time costs.
 In the post-completion inspection phase of a project, LiDAR technology can be used to help identify safety hazards thanks to its greater accuracy.
 ---
 # Reflection
 ## Limitation and strength 
-```{r echo=FALSE, out.width='40%',fig.align='center', fig.cap=123, fig.align='center'}
+```{r echo=FALSE, out.width='20%',fig.align='center', fig.align='left'}
 knitr::include_graphics('img/bath.png')
 ```
-
 .small[LiDAR pulse directly through the glass]
 
 However, it needs to be acknowledged that there are still limitations to LiDAR as a technology. In my experience with LiDAR scanning and modelling, I have found that LiDAR has some problems: for example, it is not possible to scan glass because the light penetrates the glass. When confronted with dense vegetation, LiDAR pulses cannot penetrate the surface and thus cannot obtain information about its interior.
